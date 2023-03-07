@@ -140,6 +140,9 @@ body {
   border: none;
   background: transparent;
 }
+.menu-container.is-open {
+  transform: translateX(0);
+}
 .menu-toggle {
   position: absolute;
   top: 40px;
@@ -165,11 +168,10 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-
+  /* max-width: 428px; */
   width: 100vw;
   height: 100vh;
-  padding: 40px;
-  padding-top: 80px;
+  padding: 24px 24px 40px 40px;
   background-color: white;
   z-index: 999;
   transform: translateX(100%);
