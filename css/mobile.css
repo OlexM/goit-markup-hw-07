@@ -1,0 +1,13 @@
+@media screen and (min-width: 428px) and (max-width: 767px) {
+  .container {
+    max-width: 428px;
+  }
+  .section-team > .container {
+    max-width: 428px;
+    padding-left: 82px;
+    padding-right: 82px;
+  }
+  .form-box {
+    min-width: 398px;
+  }
+}
