@@ -11,3 +11,14 @@
     min-width: 398px;
   }
 }
+@media screen and (max-width: 767px) {
+  .nav-list {
+    display: none;
+  }
+  .address {
+    display: none;
+  }
+  .header > .container {
+    max-width: 428px;
+  }
+}

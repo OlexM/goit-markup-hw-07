@@ -94,3 +94,16 @@
     width: 264px;
   }
 }
+@media screen and (min-width: 768px) {
+  .js-open-menu {
+    display: none;
+  }
+}
+.menu-container.is-open .header-item-link {
+  color: blue;
+}
+@media screen and (min-width: 768px) {
+  .menu-container {
+    display: none;
+  }
+}
