@@ -491,14 +491,14 @@ body {
 /* --------PORTFOLIO--------- */
 /* --------FILTERS--------- */
 .portfolio {
-  padding-top: 96px;
+  padding-top: 48px;
 }
 .filters-list {
   display: flex;
   gap: 24px;
-  justify-content: center;
+  row-gap: 16px;
   flex-wrap: wrap;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
 .filters-btn {
   font-family: 'Roboto', 'FF DIN', sans-serif;
@@ -528,11 +528,12 @@ body {
 .examples-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px;
+  row-gap: 48px;
   column-gap: 24px;
   justify-content: center;
 }
 .examples-item {
+  width: calc(100% - 32px);
 }
 .examples-link {
   display: block;
@@ -567,7 +568,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 .examples-text {
   color: var(--body-color);

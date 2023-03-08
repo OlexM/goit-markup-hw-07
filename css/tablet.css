@@ -120,4 +120,18 @@
   .section-doing {
     padding-bottom: 0;
   }
+  .examples-item {
+    width: calc((100% - 32px) / 2);
+  }
+  .examples-list {
+    row-gap: 72px;
+    justify-content: flex-start;
+  }
+  .portfolio {
+    padding-top: 64px;
+  }
+  .filters-list {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
 }
