@@ -185,7 +185,7 @@ body {
     url(../images/hero-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 428px;
+  background-size: 100%;
 }
 @media screen and (min-device-pixel-ratio: 2),
   screen and (min-resolution: 192dpi),
@@ -851,4 +851,7 @@ body {
 }
 .subscribe-icon {
   fill: var(--white);
+}
+.no-scroll {
+  overflow: hidden;
 }
