@@ -15,7 +15,6 @@
   }
   .features-item {
     width: calc((100% - 24px) / 4);
-    justify-content: center;
   }
   .features-text {
     font-weight: 400;
@@ -79,7 +78,7 @@
     padding-bottom: 24px;
   }
   .nav {
-    gap: 72px;
+    gap: 76px;
   }
   .header-wrap .address-list {
     flex-direction: row;

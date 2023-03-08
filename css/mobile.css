@@ -24,6 +24,11 @@
   .header > .container {
     max-width: 428px;
   }
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   .menu-container .nav-list {
     display: flex;
     flex-direction: column;
@@ -47,7 +52,6 @@
   }
   .menu-container .address-list {
     flex-direction: column-reverse;
-    margin-top: 284px;
   }
 
   .menu-container .address-item-text {
@@ -67,9 +71,9 @@
   .modal-input {
     width: 296px;
   }
-  .menu-container .address-list {
+  /* .menu-container .address-list {
     margin-top: 120px;
-  }
+  } */
   .menu-container .nav-list {
     gap: 20px;
     font-size: 24px;
