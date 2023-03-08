@@ -47,7 +47,6 @@ body {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
 }
 .section {
   padding-top: 96px;
@@ -168,7 +167,6 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  /* max-width: 428px; */
   width: 100vw;
   height: 100vh;
   padding: 24px 24px 40px 40px;
@@ -236,7 +234,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 72px;
-  /* flex-wrap: wrap; */
 }
 .features-item {
   width: 100%;
@@ -258,7 +255,6 @@ body {
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue);
-  /* margin-bottom: 8px; */
 }
 .features-text {
   font-weight: 500;
@@ -266,6 +262,7 @@ body {
 /* --------DOING--------- */
 .section-doing {
   padding-top: 0;
+  padding-bottom: 120px;
 }
 .doing {
   display: none;
@@ -293,8 +290,6 @@ body {
 /* --------TEAM--------- */
 .section-team {
   background-color: var(--cloud);
-  padding-top: 96px;
-  padding-bottom: 128px;
 }
 
 .team {
@@ -428,7 +423,6 @@ body {
   justify-content: center;
 }
 .footer-logo {
-  /* margin-bottom: 16px; */
 }
 .footer-text {
   color: var(--cornflower);
@@ -627,18 +621,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
-  /* min-width: 408px;
-  min-height: 584px; */
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 24px;
-  /* transition-property: box-shadow;
-  transition-duration: 2500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .modal-close-btn {
   width: 24px;
